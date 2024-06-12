@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9508a751-7b42-4052-9e6d-51d4aed86991" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2hTjuw7TohbK8Vm1me7ZY9RepKV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.YourAppApplication.executor": "Run",
+    "Application.com.example.demo.YourAppApplication.executor": "Run",
+    "Maven.myproject [-Dtest=NOT_RESOLVED...].executor": "Debug",
+    "Maven.myproject [install,-DforkCount=0...].executor": "Debug",
+    "Maven.myproject [install:install].executor": "Run",
+    "Maven.myproject [install].executor": "Run",
+    "Maven.myproject [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
+    "Maven.myproject [org.apache.maven.plugins:maven-install-plugin:2.5.2:help].executor": "Run",
+    "Maven.myproject [org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file].executor": "Run",
+    "Maven.myproject [org.apache.maven.plugins:maven-install-plugin:2.5.2:install].executor": "Run",
+    "Maven.myproject [verify,-DforkCount=0...].executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.example.demo.YourAppApplication">
+    <configuration name="YourAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.myapp.YourAppApplication" />
+      <module name="bookstoreapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.myapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.demo.YourAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.YourAppApplication" />
+      <module name="bookstoreapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.example.demo.YourAppApplication" />
+        <item itemvalue="Application.YourAppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

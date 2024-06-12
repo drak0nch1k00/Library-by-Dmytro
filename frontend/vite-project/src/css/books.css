@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-container {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .books-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 180px;
+  }
+  
+  .book-image {
+    width: 180px;
+    height: 252px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .list-button {
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 180px;
+    margin-top: 10px;
+  }
+  
+  .book-details {
+    flex: 1;
+  }
+  
+  .book-details h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  
+  .book-title {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  
+  #title {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    box-sizing: border-box;
+  }
+  
+  #title:focus {
+    outline: none;
+    border-color: #1f1f1f;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .Create-button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 30%;
+  }
+  
+  .Create-button:hover {
+    background-color: rgb(41, 41, 41);
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #ffca08;
+  }
+  
+  .rating input:disabled ~ label {
+    cursor: default;
+    color: #ddd;
+  }
+  
