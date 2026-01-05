@@ -16,9 +16,9 @@ public class Book {
     private int pageCount;
     private String description;
     private String imageUrl;
-    private int rating; // Добавляем поле для оценки
+    private int rating; 
 
-    // Default constructor required by JPA
+  
     public Book() {}
 
     // Constructor with mandatory fields
